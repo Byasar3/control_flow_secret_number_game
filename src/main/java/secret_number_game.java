@@ -16,10 +16,11 @@ public class secret_number_game {
         // Defining correct secret number
         int SecretNumber = 33;
 
-        //
+        // setting up if
         if ((SecretNumberGuess) == (SecretNumber)) {
             System.out.println("CORRECT! YOU'RE A WINNER");
         }
+
         else if (SecretNumberGuess < SecretNumber) {
             System.out.println("You're lower than the secret number, try again!")
             ;
@@ -29,6 +30,7 @@ public class secret_number_game {
         }
 
 
+        }
 
     }
 }
